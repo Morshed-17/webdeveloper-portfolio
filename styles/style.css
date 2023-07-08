@@ -37,10 +37,9 @@ p {
 /* ---------header section---------- */
 
 header {
-  background: #fff8f3;
   height: 100vh;
   position: relative;
-  background: url("../images/header_bg.png");
+  background:#fff8f3 url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
 }
