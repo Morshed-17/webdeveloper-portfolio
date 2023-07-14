@@ -37,11 +37,9 @@ p {
 /* ---------header section---------- */
 
 header {
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
-  background: #fff8f3 url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
+  align-items: center;
 }
 
 .developer-img {
@@ -53,6 +51,7 @@ header nav {
   display: flex;
   justify-content: space-between;
   padding: 50px 12%;
+  background: #fff8f3;
 }
 .logo {
   font-size: 45px;
@@ -82,14 +81,14 @@ header li a {
 .header-content {
   display: flex;
   justify-content: space-between;
+  background: #fff8f3 url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
   align-items: center;
-
-  padding: 0 4% 0 12%;
+  padding: 0 0 0 12%;
 }
 
-.image-col img {
-  width: 113%;
-}
+
 .header-content h2 {
   color: #474747;
   font-size: 45px;
