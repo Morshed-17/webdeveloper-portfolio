@@ -1,8 +1,6 @@
 /* small screen */
 @media screen and (max-width: 576px) {
-  nav {
-    align-items: ;
-  }
+
   .developer-img {
     display: none;
 }
@@ -70,9 +68,7 @@ nav li {
   header {
     background: none;
   }
-  nav {
-    align-items: ;
-  }
+
   .developer-img {
     display: none;
 }
